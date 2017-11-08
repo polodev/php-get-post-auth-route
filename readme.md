@@ -1,10 +1,10 @@
 # php get post auth router starter pack
-Its a simple php starter pack clean routing. you can use it for your project. You can start using by php server. `php -S localhost:8000 `
+It's a simple php starter pack for clean routing. you can use it for your project. You can start using by php server. `php -S localhost:8000 `
 ### to setup database
 You will find out database setup in  `config.php` file. change appropriate credential to connect with your database.
 
 ### Routing
-In `routes.php`, you can register a new routes. by following code. `get` or `post` function require 2 arguments. one is uri, two is controller. Options third parameter for auth.
+In `routes.php`, you can register a new routes. by following code. `get` or `post` method. Which take minimum 2 arguments. first is uri, 2nd is controller. Third parameter is optional. Which used for auth.
 ~~~php
 //incase of get routes
 
