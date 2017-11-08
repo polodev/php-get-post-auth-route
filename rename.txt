@@ -1,0 +1,2 @@
+rename 's/.controller.php/.view.php/' *.php
+
