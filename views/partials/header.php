@@ -24,7 +24,11 @@
           <a class="nav-link" href="/contact">Contact</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/login">Login</a>
+          <?php if (isset($_SESSION['user_id'])) : ?>
+            <a class="nav-link" href="/logout">Logout</a>
+          <?php else: ?>
+            <a class="nav-link" href="/login">Login</a>
+          <?php endif; ?>
         </li>
       </ul>
     </div>
