@@ -7,22 +7,25 @@
           <h2>Login Page</h2>
         </div>
         <div class="card-body">
-          <div class="form-group">
-              <label for="Name">Name</label>
-              <input type="text" name="Name" id="Name" class="form-control">
-          </div>
-          <div class="form-group">
-              <label for="email">Email</label>
-              <input type="text" name="email" id="email" class="form-control">
-          </div>
-          <div class="form-group">
-            <button class="btn btn-info" type="submit">Login</button>
-          </div>
-          
-          
+          <form action="">
+            <div class="form-group">
+                <label for="Name">Name</label>
+                <input type="text" name="Name" id="Name" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" class="form-control">
+            </div>
+            <div class="form-group">
+              <button class="btn btn-info" type="submit">Login</button>
+            </div>
+          </form>
+          <p>
+            <a href="/register" class="btn btn-primary">Register</a>
+            <a href="/demo-login" class="btn btn-info">Demo Login</a>
+           </p>
         </div>
       </div>
-      
     </div>
   </div>
 </div>
